@@ -53,6 +53,9 @@
           "@vitejs/plugin-react-swc": "^3.10.2",
           "vite": "6.3.5"
       },
+      "engines": {
+        "node": "20.x"
+      },
       "scripts": {
           "dev": "vite",
           "build": "npx vite build"
