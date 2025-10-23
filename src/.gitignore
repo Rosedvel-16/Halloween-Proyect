@@ -1,0 +1,22 @@
+# Directorio de dependencias de Node
+/node_modules
+
+# Directorio de build (salida de 'npm run build')
+# Según tu vite.config.ts, el directorio de salida es 'build'
+/build
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Archivos de caché
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Variables de entorno
+.env
+.env.*
